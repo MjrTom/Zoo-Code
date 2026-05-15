@@ -1011,7 +1011,7 @@ importers:
         version: 5.0.0
       tiktoken:
         specifier: ^1.0.21
-        version: 1.0.21
+        version: 1.0.22
       tmp:
         specifier: ^0.2.3
         version: 0.2.4
@@ -10812,8 +10812,8 @@ packages:
   through@2.3.8:
     resolution: {integrity: sha512-w89qg7PI8wAdvX60bMDP+bFoD5Dvhm9oLheFp5O4a2QF0cSBGsBX4qZmadPMvVqlLJBBci+WqGGOAPvcDeNSVg==}
 
-  tiktoken@1.0.21:
-    resolution: {integrity: sha512-/kqtlepLMptX0OgbYD9aMYbM7EFrMZCL7EoHM8Psmg2FuhXoo/bH64KqOiZGGwa6oS9TPdSEDKBnV2LuB8+5vQ==}
+  tiktoken@1.0.22:
+    resolution: {integrity: sha512-PKvy1rVF1RibfF3JlXBSP0Jrcw2uq3yXdgcEXtKTYn3QJ/cBRBHDnrJ5jHky+MENZ6DIPwNUGWpkVx+7joCpNA==}
 
   tiny-inflate@1.0.3:
     resolution: {integrity: sha512-pkY1fj1cKHb2seWDy0B16HeWyczlJA9/WW3u3c4z/NiWDsO3DOU5D7nhTLE9CF0yXv/QZFY7sEJmj24dK+Rrqw==}
@@ -22738,7 +22738,7 @@ snapshots:
 
   through@2.3.8: {}
 
-  tiktoken@1.0.21: {}
+  tiktoken@1.0.22: {}
 
   tiny-inflate@1.0.3: {}
 
