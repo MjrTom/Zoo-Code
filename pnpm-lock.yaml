@@ -1048,7 +1048,7 @@ importers:
     devDependencies:
       '@ai-sdk/openai-compatible':
         specifier: ^2.0.28
-        version: 2.0.28(zod@3.25.76)
+        version: 2.0.47(zod@3.25.76)
       '@openrouter/ai-sdk-provider':
         specifier: ^2.1.1
         version: 2.1.1(ai@6.0.77(zod@3.25.76))(zod@3.25.76)
