@@ -12,7 +12,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Checkout code
-              uses: actions/checkout@v4
+              uses: actions/checkout@v6
             - name: Setup Node.js and pnpm
               uses: ./.github/actions/setup-node-pnpm
             - name: Verify all translations are complete
@@ -22,7 +22,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Checkout code
-              uses: actions/checkout@v4
+              uses: actions/checkout@v6
             - name: Setup Node.js and pnpm
               uses: ./.github/actions/setup-node-pnpm
             - name: Run knip checks
@@ -32,7 +32,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Checkout code
-              uses: actions/checkout@v4
+              uses: actions/checkout@v6
             - name: Setup Node.js and pnpm
               uses: ./.github/actions/setup-node-pnpm
             - name: Lint
@@ -54,7 +54,7 @@ jobs:
                       codecov-flag: windows
         steps:
             - name: Checkout code
-              uses: actions/checkout@v4
+              uses: actions/checkout@v6
             - name: Setup Node.js and pnpm
               uses: ./.github/actions/setup-node-pnpm
             - name: Cache Turbo
