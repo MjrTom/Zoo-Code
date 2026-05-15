@@ -1368,8 +1368,8 @@ importers:
         specifier: ^0.1.1
         version: 0.1.1
       vscrui:
-        specifier: ^0.2.2
-        version: 0.2.2(@types/react@18.3.28)(react@18.3.1)
+        specifier: ^0.3.0
+        version: 0.3.0(@types/react@18.3.28)(react@18.3.1)
       zod:
         specifier: 3.25.76
         version: 3.25.76
@@ -11399,8 +11399,8 @@ packages:
   vscode-material-icons@0.1.1:
     resolution: {integrity: sha512-GsoEEF8Tbb0yUFQ6N6FPvh11kFkL9F95x0FkKlbbfRQN9eFms67h+L3t6b9cUv58dSn2gu8kEhNfoESVCrz4ag==}
 
-  vscrui@0.2.2:
-    resolution: {integrity: sha512-buw2OipqUl7GCBq1mxcAjUwoUsslGzVhdaxDPmEx27xzc3QAJJZHtT30QbakgZVJ1Jb3E6kcsguUIFEGxrgkyQ==}
+  vscrui@0.3.0:
+    resolution: {integrity: sha512-Cnf5KmWPs3YIjdRMjcuHKiFU+Lv8U6bCvtGECEvpMBCrI/MMyp2H0Tt8BqVhdD+v1VmyEbfSrpy6INnMYb5D1g==}
     peerDependencies:
       '@types/react': ^18.3.23
       react: ^17 || ^18 || ^19
@@ -23487,7 +23487,7 @@ snapshots:
 
   vscode-material-icons@0.1.1: {}
 
-  vscrui@0.2.2(@types/react@18.3.28)(react@18.3.1):
+  vscrui@0.3.0(@types/react@18.3.28)(react@18.3.1):
     dependencies:
       '@types/react': 18.3.28
       react: 18.3.1
