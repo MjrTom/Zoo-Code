@@ -866,8 +866,8 @@ importers:
         specifier: ^6.0.0
         version: 6.0.0
       diff:
-        specifier: ^5.2.0
-        version: 5.2.2
+        specifier: ^8.0.0
+        version: 8.0.4
       diff-match-patch:
         specifier: ^1.0.5
         version: 1.0.5
@@ -1251,8 +1251,8 @@ importers:
         specifier: ^2.1.1
         version: 2.2.0
       diff:
-        specifier: ^5.2.0
-        version: 5.2.2
+        specifier: ^8.0.0
+        version: 8.0.4
       fast-deep-equal:
         specifier: ^3.1.3
         version: 3.1.3
@@ -1494,12 +1494,6 @@ packages:
     peerDependencies:
       zod: 3.25.76
 
-  '@ai-sdk/google@3.0.22':
-    resolution: {integrity: sha512-g1N5P/jfTiH4qwdv4WT3hkKzzAbITFz457NomtBfjP8Q3SCzdbU9oPK5ACBMG8RN5mc2QPL6DLtM3Hf5T8KPmw==}
-    engines: {node: '>=18'}
-    peerDependencies:
-      zod: 3.25.76
-
   '@ai-sdk/google@3.0.74':
     resolution: {integrity: sha512-LMuDNHYNt4bfDMTE2oxe83ClF0HenCepkBs5Wb0LKBokuN1dxIUirPQHQvi1AuT+80SLyrOZ5c4wPGTVUl2A4w==}
     engines: {node: '>=18'}
@@ -1514,12 +1508,6 @@ packages:
 
   '@ai-sdk/openai-compatible@1.0.11':
     resolution: {integrity: sha512-eRD6dZviy31KYz4YvxAR/c6UEYx3p4pCiWZeDdYdAHj0rn8xZlGVxtQRs1qynhz6IYGOo4aLBf9zVW5w0tI/Uw==}
-    engines: {node: '>=18'}
-    peerDependencies:
-      zod: 3.25.76
-
-  '@ai-sdk/openai-compatible@2.0.28':
-    resolution: {integrity: sha512-WzDnU0B13FMSSupDtm2lksFZvWGXnOfhG5S0HoPI0pkX5uVkr6N1UTATMyVaxLCG0MRkMhXCjkg4NXgEbb330Q==}
     engines: {node: '>=18'}
     peerDependencies:
       zod: 3.25.76
@@ -6466,12 +6454,12 @@ packages:
     resolution: {integrity: sha512-uIFDxqpRZGZ6ThOk84hEfqWoHx2devRFvpTZcTHur85vImfaxUbTW9Ryh4CpCuDnToOP1CEtXKIgytHBPVff5A==}
     engines: {node: '>=0.3.1'}
 
-  diff@5.2.2:
-    resolution: {integrity: sha512-vtcDfH3TOjP8UekytvnHH1o1P4FcUdt4eQ1Y+Abap1tk/OB2MWQvcwS2ClCd1zuIhc3JKOx6p3kod8Vfys3E+A==}
-    engines: {node: '>=0.3.1'}
-
   diff@7.0.0:
     resolution: {integrity: sha512-PJWHUb1RFevKCwaFA9RlG5tCd+FO5iRh9A8HEtkmBH2Li03iJriB6m6JIN4rGz3K3JLawI7/veA1xzRKP6ISBw==}
+    engines: {node: '>=0.3.1'}
+
+  diff@8.0.4:
+    resolution: {integrity: sha512-DPi0FmjiSU5EvQV0++GFDOJ9ASQUVFh5kD+OzOnYdi7n3Wpm9hWWGfB/O2blfHcMVTL5WkQXSnRiK9makhrcnw==}
     engines: {node: '>=0.3.1'}
 
   dingbat-to-unicode@1.0.1:
@@ -11710,12 +11698,6 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@ai-sdk/google@3.0.22(zod@3.25.76)':
-    dependencies:
-      '@ai-sdk/provider': 3.0.8
-      '@ai-sdk/provider-utils': 4.0.14(zod@3.25.76)
-      zod: 3.25.76
-
   '@ai-sdk/google@3.0.74(zod@3.25.76)':
     dependencies:
       '@ai-sdk/provider': 3.0.10
@@ -11732,12 +11714,6 @@ snapshots:
     dependencies:
       '@ai-sdk/provider': 2.0.0
       '@ai-sdk/provider-utils': 3.0.5(zod@3.25.76)
-      zod: 3.25.76
-
-  '@ai-sdk/openai-compatible@2.0.28(zod@3.25.76)':
-    dependencies:
-      '@ai-sdk/provider': 3.0.8
-      '@ai-sdk/provider-utils': 4.0.14(zod@3.25.76)
       zod: 3.25.76
 
   '@ai-sdk/openai-compatible@2.0.37(zod@3.25.76)':
@@ -17184,9 +17160,9 @@ snapshots:
 
   diff@5.2.0: {}
 
-  diff@5.2.2: {}
-
   diff@7.0.0: {}
+
+  diff@8.0.4: {}
 
   dingbat-to-unicode@1.0.1: {}
 
