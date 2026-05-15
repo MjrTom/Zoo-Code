@@ -786,7 +786,7 @@ importers:
         version: 2.0.52(zod@3.25.76)
       '@ai-sdk/google':
         specifier: ^3.0.22
-        version: 3.0.22(zod@3.25.76)
+        version: 3.0.74(zod@3.25.76)
       '@ai-sdk/google-vertex':
         specifier: ^4.0.45
         version: 4.0.45(zod@3.25.76)
@@ -1502,6 +1502,12 @@ packages:
 
   '@ai-sdk/google@3.0.22':
     resolution: {integrity: sha512-g1N5P/jfTiH4qwdv4WT3hkKzzAbITFz457NomtBfjP8Q3SCzdbU9oPK5ACBMG8RN5mc2QPL6DLtM3Hf5T8KPmw==}
+    engines: {node: '>=18'}
+    peerDependencies:
+      zod: 3.25.76
+
+  '@ai-sdk/google@3.0.74':
+    resolution: {integrity: sha512-LMuDNHYNt4bfDMTE2oxe83ClF0HenCepkBs5Wb0LKBokuN1dxIUirPQHQvi1AuT+80SLyrOZ5c4wPGTVUl2A4w==}
     engines: {node: '>=18'}
     peerDependencies:
       zod: 3.25.76
@@ -11691,6 +11697,12 @@ snapshots:
     dependencies:
       '@ai-sdk/provider': 3.0.8
       '@ai-sdk/provider-utils': 4.0.14(zod@3.25.76)
+      zod: 3.25.76
+
+  '@ai-sdk/google@3.0.74(zod@3.25.76)':
+    dependencies:
+      '@ai-sdk/provider': 3.0.10
+      '@ai-sdk/provider-utils': 4.0.27(zod@3.25.76)
       zod: 3.25.76
 
   '@ai-sdk/mistral@3.0.19(zod@3.25.76)':
