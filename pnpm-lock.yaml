@@ -253,7 +253,7 @@ importers:
         version: link:../../packages/types
       '@tanstack/react-query':
         specifier: ^5.69.0
-        version: 5.76.1(react@18.3.1)
+        version: 5.100.10(react@18.3.1)
       archiver:
         specifier: ^7.0.1
         version: 7.0.1
@@ -359,7 +359,7 @@ importers:
         version: 1.115.0
       '@tanstack/react-query':
         specifier: ^5.90.20
-        version: 5.90.20(react@18.3.1)
+        version: 5.100.10(react@18.3.1)
       '@vercel/og':
         specifier: ^0.8.6
         version: 0.8.6
@@ -1222,7 +1222,7 @@ importers:
         version: 4.1.6(vite@6.4.2(@types/node@20.17.57)(jiti@2.4.2)(lightningcss@1.30.1)(tsx@4.22.0)(yaml@2.9.0))
       '@tanstack/react-query':
         specifier: ^5.68.0
-        version: 5.76.1(react@18.3.1)
+        version: 5.100.10(react@18.3.1)
       '@vscode/codicons':
         specifier: ^0.0.45
         version: 0.0.45
@@ -4491,19 +4491,11 @@ packages:
     peerDependencies:
       vite: ^5.2.0 || ^6
 
-  '@tanstack/query-core@5.76.0':
-    resolution: {integrity: sha512-FN375hb8ctzfNAlex5gHI6+WDXTNpe0nbxp/d2YJtnP+IBM6OUm7zcaoCW6T63BawGOYZBbKC0iPvr41TteNVg==}
+  '@tanstack/query-core@5.100.10':
+    resolution: {integrity: sha512-8UR0yJR+GiQ40m3lPhUr0xbfAupe6GSQiksSBSa9SM2NjezFyxXCIA69/lz8cSoNKZLrw1/PktIyQBJcVeMi3w==}
 
-  '@tanstack/query-core@5.90.20':
-    resolution: {integrity: sha512-OMD2HLpNouXEfZJWcKeVKUgQ5n+n3A2JFmBaScpNDUqSrQSjiveC7dKMe53uJUg1nDG16ttFPz2xfilz6i2uVg==}
-
-  '@tanstack/react-query@5.76.1':
-    resolution: {integrity: sha512-YxdLZVGN4QkT5YT1HKZQWiIlcgauIXEIsMOTSjvyD5wLYK8YVvKZUPAysMqossFJJfDpJW3pFn7WNZuPOqq+fw==}
-    peerDependencies:
-      react: ^18 || ^19
-
-  '@tanstack/react-query@5.90.20':
-    resolution: {integrity: sha512-vXBxa+qeyveVO7OA0jX1z+DeyCA4JKnThKv411jd5SORpBKgkcVnYKCiBgECvADvniBX7tobwBmg01qq9JmMJw==}
+  '@tanstack/react-query@5.100.10':
+    resolution: {integrity: sha512-FLaZf2RCrA/Zgp4aiu5tG3TyasTRO7aZ99skxQpr3Hg/zXOhu6yq5FZCYQ/tRaJtM9ylnoK8tFK7PolXQadv6Q==}
     peerDependencies:
       react: ^18 || ^19
 
@@ -14949,18 +14941,11 @@ snapshots:
       tailwindcss: 4.1.6
       vite: 6.4.2(@types/node@20.17.57)(jiti@2.4.2)(lightningcss@1.30.1)(tsx@4.22.0)(yaml@2.9.0)
 
-  '@tanstack/query-core@5.76.0': {}
+  '@tanstack/query-core@5.100.10': {}
 
-  '@tanstack/query-core@5.90.20': {}
-
-  '@tanstack/react-query@5.76.1(react@18.3.1)':
+  '@tanstack/react-query@5.100.10(react@18.3.1)':
     dependencies:
-      '@tanstack/query-core': 5.76.0
-      react: 18.3.1
-
-  '@tanstack/react-query@5.90.20(react@18.3.1)':
-    dependencies:
-      '@tanstack/query-core': 5.90.20
+      '@tanstack/query-core': 5.100.10
       react: 18.3.1
 
   '@testing-library/dom@10.4.0':
