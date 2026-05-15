@@ -178,7 +178,7 @@ importers:
         version: 20.17.57
       '@types/vscode':
         specifier: ^1.95.0
-        version: 1.100.0
+        version: 1.120.0
       '@vscode/test-cli':
         specifier: ^0.0.12
         version: 0.0.12
@@ -515,7 +515,7 @@ importers:
         version: 24.2.1
       '@types/vscode':
         specifier: ^1.102.0
-        version: 1.103.0
+        version: 1.120.0
       '@vitest/coverage-v8':
         specifier: ^3.2.4
         version: 3.2.4(vitest@3.2.4)
@@ -713,7 +713,7 @@ importers:
         version: 20.17.57
       '@types/vscode':
         specifier: ^1.84.0
-        version: 1.100.0
+        version: 1.120.0
       '@vitest/coverage-v8':
         specifier: ^3.2.3
         version: 3.2.4(vitest@3.2.4)
@@ -1117,7 +1117,7 @@ importers:
         version: 5.0.6
       '@types/vscode':
         specifier: ^1.84.0
-        version: 1.100.0
+        version: 1.120.0
       '@vitest/coverage-v8':
         specifier: ^3.2.3
         version: 3.2.4(vitest@3.2.4)
@@ -4868,11 +4868,8 @@ packages:
   '@types/vscode-webview@1.57.5':
     resolution: {integrity: sha512-iBAUYNYkz+uk1kdsq05fEcoh8gJmwT3lqqFPN7MGyjQ3HVloViMdo7ZJ8DFIP8WOK74PjOEilosqAyxV2iUFUw==}
 
-  '@types/vscode@1.100.0':
-    resolution: {integrity: sha512-4uNyvzHoraXEeCamR3+fzcBlh7Afs4Ifjs4epINyUX/jvdk0uzLnwiDY35UKDKnkCHP5Nu3dljl2H8lR6s+rQw==}
-
-  '@types/vscode@1.103.0':
-    resolution: {integrity: sha512-o4hanZAQdNfsKecexq9L3eHICd0AAvdbLk6hA60UzGXbGH/q8b/9xv2RgR7vV3ZcHuyKVq7b37IGd/+gM4Tu+Q==}
+  '@types/vscode@1.120.0':
+    resolution: {integrity: sha512-feaT4Rst+FkTch5zz/ZbNCxoIvo55YU80Be2kiL7OJcod4+CUYf2lUBPdIJzozNnSEMq1VRTGrWEcCGFB3fBmA==}
 
   '@types/ws@8.18.1':
     resolution: {integrity: sha512-ThVF6DCVhA8kUGy+aazFQ4kXQ7E1Ty7A3ypFOe0IcJV8O/M511G99AW24irKrW56Wt44yG9+ij8FaqoBGkuBXg==}
@@ -15369,9 +15366,7 @@ snapshots:
 
   '@types/vscode-webview@1.57.5': {}
 
-  '@types/vscode@1.100.0': {}
-
-  '@types/vscode@1.103.0': {}
+  '@types/vscode@1.120.0': {}
 
   '@types/ws@8.18.1':
     dependencies:
