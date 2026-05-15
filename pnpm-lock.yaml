@@ -1051,7 +1051,7 @@ importers:
         version: 2.0.47(zod@3.25.76)
       '@openrouter/ai-sdk-provider':
         specifier: ^2.1.1
-        version: 2.1.1(ai@6.0.183(zod@3.25.76))(zod@3.25.76)
+        version: 2.9.0(ai@6.0.183(zod@3.25.76))(zod@3.25.76)
       '@roo-code/build':
         specifier: workspace:^
         version: link:../packages/build
@@ -3071,8 +3071,8 @@ packages:
   '@open-draft/until@2.1.0':
     resolution: {integrity: sha512-U69T3ItWHvLwGg5eJ0n3I62nWuE6ilHlmz7zM0npLBRvPRd7e6NYmg54vvRtP5mZG7kZqZCFVdsTWo7BPtBujg==}
 
-  '@openrouter/ai-sdk-provider@2.1.1':
-    resolution: {integrity: sha512-UypPbVnSExxmG/4Zg0usRiit3auvQVrjUXSyEhm0sZ9GQnW/d8p/bKgCk2neh1W5YyRSo7PNQvCrAEBHZnqQkQ==}
+  '@openrouter/ai-sdk-provider@2.9.0':
+    resolution: {integrity: sha512-Seva+NCa0WUQnJIUE5GzHsUv1WTIeyqwz0ELl2VtS6NP+eF+77yCXGFVOMbvoCM7QMjlnhv7931e89R+8pJdcQ==}
     engines: {node: '>=18'}
     peerDependencies:
       ai: ^6.0.0
@@ -13482,7 +13482,7 @@ snapshots:
 
   '@open-draft/until@2.1.0': {}
 
-  '@openrouter/ai-sdk-provider@2.1.1(ai@6.0.183(zod@3.25.76))(zod@3.25.76)':
+  '@openrouter/ai-sdk-provider@2.9.0(ai@6.0.183(zod@3.25.76))(zod@3.25.76)':
     dependencies:
       ai: 6.0.183(zod@3.25.76)
       zod: 3.25.76
