@@ -523,7 +523,7 @@
 		"undici": "^6.24.0",
 		"uuid": "^14.0.0",
 		"vscode-material-icons": "^0.1.1",
-		"web-tree-sitter": "^0.25.6",
+		"web-tree-sitter": "^0.26.0",
 		"workerpool": "^9.2.0",
 		"yaml": "^2.8.3",
 		"zhipu-ai-provider": "^0.2.2",
