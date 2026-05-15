@@ -815,8 +815,8 @@ importers:
         specifier: ^1.1.1
         version: 1.5.0
       '@mistralai/mistralai':
-        specifier: ^1.9.18
-        version: 1.9.18(zod@3.25.76)
+        specifier: ^2.0.0
+        version: 2.2.1
       '@modelcontextprotocol/sdk':
         specifier: 1.29.0
         version: 1.29.0(zod@3.25.76)
@@ -2888,10 +2888,8 @@ packages:
   '@microsoft/fast-web-utilities@5.4.1':
     resolution: {integrity: sha512-ReWYncndjV3c8D8iq9tp7NcFNc1vbVHvcBFPME2nNFKNbS1XCesYZGlIlf3ot5EmuOXPlrzUHOWzQ2vFpIkqDg==}
 
-  '@mistralai/mistralai@1.9.18':
-    resolution: {integrity: sha512-D/vNAGEvWMsg95tzgLTg7pPnW9leOPyH+nh1Os05NwxVPbUykoYgMAwOEX7J46msahWdvZ4NQQuxUXIUV2P6dg==}
-    peerDependencies:
-      zod: 3.25.76
+  '@mistralai/mistralai@2.2.1':
+    resolution: {integrity: sha512-uKU8CZmL2RzYKmplsU01hii4p3pe4HqJefpWNRWXm1Tcm0Sm4xXfwSLIy4k7ZCPlbETCGcp69E7hZs+WOJ5itQ==}
 
   '@mixmark-io/domino@2.2.0':
     resolution: {integrity: sha512-Y28PR25bHXUg88kCV7nivXrP2Nj2RueZ3/l/jdx6J9f8J4nsEGcgX0Qe6lt7Pa+J79+kPiJU3LguR6O/6zrLOw==}
@@ -13466,10 +13464,14 @@ snapshots:
     dependencies:
       exenv-es6: 1.1.1
 
-  '@mistralai/mistralai@1.9.18(zod@3.25.76)':
+  '@mistralai/mistralai@2.2.1':
     dependencies:
+      ws: 8.20.1
       zod: 3.25.76
       zod-to-json-schema: 3.25.2(zod@3.25.76)
+    transitivePeerDependencies:
+      - bufferutil
+      - utf-8-validate
 
   '@mixmark-io/domino@2.2.0': {}
 

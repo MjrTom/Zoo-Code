@@ -451,7 +451,7 @@
 		"@aws-sdk/credential-providers": "^3.922.0",
 		"@google/genai": "^2.0.0",
 		"@lmstudio/sdk": "^1.1.1",
-		"@mistralai/mistralai": "^1.9.18",
+		"@mistralai/mistralai": "^2.0.0",
 		"@modelcontextprotocol/sdk": "1.29.0",
 		"@qdrant/js-client-rest": "^1.14.0",
 		"@roo-code/cloud": "workspace:^",
