@@ -813,7 +813,7 @@ importers:
         version: 1.29.1(@modelcontextprotocol/sdk@1.29.0(zod@3.25.76))
       '@lmstudio/sdk':
         specifier: ^1.1.1
-        version: 1.2.0
+        version: 1.5.0
       '@mistralai/mistralai':
         specifier: ^1.9.18
         version: 1.9.18(zod@3.25.76)
@@ -2830,11 +2830,11 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@lmstudio/lms-isomorphic@0.4.5':
-    resolution: {integrity: sha512-Or9KS1Iz3LC7D7WMe4zbqAqKOlDsVcrvMoQFBhmydzzxOg+eYBM5gtfgMMjcwjM0BuUVPhYOjTWEyfXpqfVJzg==}
+  '@lmstudio/lms-isomorphic@0.4.6':
+    resolution: {integrity: sha512-v0LIjXKnDe3Ff3XZO5eQjlVxTjleUHXaom14MV7QU9bvwaoo3l5p71+xJ3mmSaqZq370CQ6pTKCn1Bb7Jf+VwQ==}
 
-  '@lmstudio/sdk@1.2.0':
-    resolution: {integrity: sha512-Eoolmi1cSuGXmLYwtn6pD9eOwjMTb+bQ4iv+i/EYz/hCc+HtbfJamoKfyyw4FogRc03RHsXHe1X18voR40D+2g==}
+  '@lmstudio/sdk@1.5.0':
+    resolution: {integrity: sha512-fdY12x4hb14PEjYijh7YeCqT1ZDY5Ok6VR4l4+E/dI+F6NW8oB+P83Sxed5vqE4XgTzbgyPuSR2ZbMNxxF+6jA==}
 
   '@manypkg/find-root@1.1.0':
     resolution: {integrity: sha512-mki5uBvhHzO8kYYix/WRy2WX8S3B5wdVSc9D6KcU5lQNglP2yt58/VfLuAK49glRXChosY8ap2oJ1qgma3GUVA==}
@@ -13221,16 +13221,16 @@ snapshots:
   '@libsql/win32-x64-msvc@0.5.29':
     optional: true
 
-  '@lmstudio/lms-isomorphic@0.4.5':
+  '@lmstudio/lms-isomorphic@0.4.6':
     dependencies:
-      ws: 8.18.2
+      ws: 8.20.1
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
 
-  '@lmstudio/sdk@1.2.0':
+  '@lmstudio/sdk@1.5.0':
     dependencies:
-      '@lmstudio/lms-isomorphic': 0.4.5
+      '@lmstudio/lms-isomorphic': 0.4.6
       chalk: 4.1.2
       jsonschema: 1.5.0
       zod: 3.25.76
@@ -23299,8 +23299,7 @@ snapshots:
 
   ws@8.18.3: {}
 
-  ws@8.20.1:
-    optional: true
+  ws@8.20.1: {}
 
   xml-name-validator@5.0.0: {}
 
