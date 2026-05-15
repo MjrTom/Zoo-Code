@@ -101,8 +101,8 @@ importers:
         specifier: ^1.15.9
         version: 1.18.0
       commander:
-        specifier: ^12.1.0
-        version: 12.1.0
+        specifier: ^14.0.0
+        version: 14.0.3
       cross-spawn:
         specifier: ^7.0.6
         version: 7.0.6
