@@ -783,7 +783,7 @@ importers:
         version: 2.0.18(zod@3.25.76)
       '@ai-sdk/fireworks':
         specifier: ^2.0.32
-        version: 2.0.32(zod@3.25.76)
+        version: 2.0.52(zod@3.25.76)
       '@ai-sdk/google':
         specifier: ^3.0.22
         version: 3.0.22(zod@3.25.76)
@@ -1476,8 +1476,8 @@ packages:
     peerDependencies:
       zod: 3.25.76
 
-  '@ai-sdk/fireworks@2.0.32':
-    resolution: {integrity: sha512-2qOEvocoRxUND086pjgliSBFKTyy6LUKbHZvXr++zlHm8ZbMT4dES78f5MHbOP9UVvRCPfTKmlPsUFUP/EVhJQ==}
+  '@ai-sdk/fireworks@2.0.52':
+    resolution: {integrity: sha512-TwNi+Eqa6Jdoz/IjIR3RvgW/BaHP6H8X2BhiDD8b9d/PvVC5ywIAcC1LLDYj/7guC/4fRjkIyiJMWFpL4Qiyhw==}
     engines: {node: '>=18'}
     peerDependencies:
       zod: 3.25.76
@@ -1524,6 +1524,12 @@ packages:
     peerDependencies:
       zod: 3.25.76
 
+  '@ai-sdk/openai-compatible@2.0.47':
+    resolution: {integrity: sha512-Enm5UlL0zUCrW3792opk5h7hRWxZOZzDe6eQYVFqX9LUOGGCe1h8MZWAGim765nwzgnjlpeYOsuzZmLtRsTPlg==}
+    engines: {node: '>=18'}
+    peerDependencies:
+      zod: 3.25.76
+
   '@ai-sdk/openai@3.0.27':
     resolution: {integrity: sha512-pLMxWOypwroXiK9dxNpn60/HGhWWWDEOJ3lo9vZLoxvpJNtKnLKojwVIvlW3yEjlD7ll1+jUO2uzsABNTaP5Yg==}
     engines: {node: '>=18'}
@@ -1548,8 +1554,18 @@ packages:
     peerDependencies:
       zod: 3.25.76
 
+  '@ai-sdk/provider-utils@4.0.27':
+    resolution: {integrity: sha512-ubkAJ+xODouwtmN1tYlvTPphH1hPOBfZaEQe8U7skGvFAnIRs9PPpsq57bC2+Ky/MB4yzhd6YOsxTAx9sGpazw==}
+    engines: {node: '>=18'}
+    peerDependencies:
+      zod: 3.25.76
+
   '@ai-sdk/provider@2.0.0':
     resolution: {integrity: sha512-6o7Y2SeO9vFKB8lArHXehNuusnpddKPk7xqL7T2/b+OvXMRIXUO1rR4wcv1hAFUAT9avGZshty3Wlua/XA7TvA==}
+    engines: {node: '>=18'}
+
+  '@ai-sdk/provider@3.0.10':
+    resolution: {integrity: sha512-Q3BZ27qfpYqnCYGvE3vt+Qi6LGOF9R5Nmzn+9JoM1lCRsD9mYaIhfJLkSunN48nfGXJ6n+XNV0J/XVpqGQl7Dw==}
     engines: {node: '>=18'}
 
   '@ai-sdk/provider@3.0.8':
@@ -11616,11 +11632,11 @@ snapshots:
       '@ai-sdk/provider-utils': 4.0.14(zod@3.25.76)
       zod: 3.25.76
 
-  '@ai-sdk/fireworks@2.0.32(zod@3.25.76)':
+  '@ai-sdk/fireworks@2.0.52(zod@3.25.76)':
     dependencies:
-      '@ai-sdk/openai-compatible': 2.0.28(zod@3.25.76)
-      '@ai-sdk/provider': 3.0.8
-      '@ai-sdk/provider-utils': 4.0.14(zod@3.25.76)
+      '@ai-sdk/openai-compatible': 2.0.47(zod@3.25.76)
+      '@ai-sdk/provider': 3.0.10
+      '@ai-sdk/provider-utils': 4.0.27(zod@3.25.76)
       zod: 3.25.76
 
   '@ai-sdk/gateway@3.0.39(zod@3.25.76)':
@@ -11671,6 +11687,12 @@ snapshots:
       '@ai-sdk/provider-utils': 4.0.21(zod@3.25.76)
       zod: 3.25.76
 
+  '@ai-sdk/openai-compatible@2.0.47(zod@3.25.76)':
+    dependencies:
+      '@ai-sdk/provider': 3.0.10
+      '@ai-sdk/provider-utils': 4.0.27(zod@3.25.76)
+      zod: 3.25.76
+
   '@ai-sdk/openai@3.0.27(zod@3.25.76)':
     dependencies:
       '@ai-sdk/provider': 3.0.8
@@ -11699,7 +11721,18 @@ snapshots:
       eventsource-parser: 3.0.8
       zod: 3.25.76
 
+  '@ai-sdk/provider-utils@4.0.27(zod@3.25.76)':
+    dependencies:
+      '@ai-sdk/provider': 3.0.10
+      '@standard-schema/spec': 1.1.0
+      eventsource-parser: 3.0.8
+      zod: 3.25.76
+
   '@ai-sdk/provider@2.0.0':
+    dependencies:
+      json-schema: 0.4.0
+
+  '@ai-sdk/provider@3.0.10':
     dependencies:
       json-schema: 0.4.0
 
