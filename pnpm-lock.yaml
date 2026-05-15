@@ -822,7 +822,7 @@ importers:
         version: 1.29.0(zod@3.25.76)
       '@qdrant/js-client-rest':
         specifier: ^1.14.0
-        version: 1.14.0(typescript@5.8.3)
+        version: 1.18.0(typescript@5.8.3)
       '@roo-code/cloud':
         specifier: workspace:^
         version: link:../packages/cloud
@@ -3271,9 +3271,9 @@ packages:
     engines: {node: '>=18'}
     hasBin: true
 
-  '@qdrant/js-client-rest@1.14.0':
-    resolution: {integrity: sha512-2sM2g17FSkN2sNCSeAfqxHRr+SPEVnUQLXBjVv/whm4YQ4JjZ53Jiy1iShk95G+xBf3hKBhJdj8itRnor03IYw==}
-    engines: {node: '>=18.0.0', pnpm: '>=8'}
+  '@qdrant/js-client-rest@1.18.0':
+    resolution: {integrity: sha512-/0dqX5uV9chC1DnYSnU4gNMrDqse/pt6hHg3Rqqpl5isH7xl1xSNvffjzBoxycDD79luWn7Ho6Rh/61sOs5DNw==}
+    engines: {node: '>=18.17.0', pnpm: '>=8'}
     peerDependencies:
       typescript: '>=4.7'
 
@@ -4045,9 +4045,6 @@ packages:
   '@secretlint/types@10.2.2':
     resolution: {integrity: sha512-Nqc90v4lWCXyakD6xNyNACBJNJ0tNCwj2WNk/7ivyacYHxiITVgmLUFXTBOeCdy79iz6HtN9Y31uw/jbLrdOAg==}
     engines: {node: '>=20.0.0'}
-
-  '@sevinf/maybe@0.5.0':
-    resolution: {integrity: sha512-ARhyoYDnY1LES3vYI0fiG6e9esWfTNcXcO6+MPJJXcnyMV3bim4lnFt45VXouV7y82F4x3YH8nOQ6VztuvUiWg==}
 
   '@shikijs/core@3.4.1':
     resolution: {integrity: sha512-GCqSd3KXRTKX1sViP7fIyyyf6do2QVg+fTd4IT00ucYCVSKiSN8HbFbfyjGsoZePNKWcQqXe4U4rrz2IVldG5A==}
@@ -13695,10 +13692,9 @@ snapshots:
       - bare-buffer
       - supports-color
 
-  '@qdrant/js-client-rest@1.14.0(typescript@5.8.3)':
+  '@qdrant/js-client-rest@1.18.0(typescript@5.8.3)':
     dependencies:
       '@qdrant/openapi-typescript-fetch': 1.2.6
-      '@sevinf/maybe': 0.5.0
       typescript: 5.8.3
       undici: 6.24.0
 
@@ -14449,8 +14445,6 @@ snapshots:
       istextorbinary: 9.5.0
 
   '@secretlint/types@10.2.2': {}
-
-  '@sevinf/maybe@0.5.0': {}
 
   '@shikijs/core@3.4.1':
     dependencies:
@@ -15826,7 +15820,7 @@ snapshots:
       read: 1.0.7
       secretlint: 10.2.2
       semver: 7.8.0
-      tmp: 0.2.4
+      tmp: 0.2.5
       typed-rest-client: 1.8.11
       url-join: 4.0.1
       xml2js: 0.5.0
@@ -20365,7 +20359,7 @@ snapshots:
       is-ci: 2.0.0
       leven: 3.1.0
       semver: 7.8.0
-      tmp: 0.2.4
+      tmp: 0.2.5
       yauzl-promise: 4.0.0
     transitivePeerDependencies:
       - bare-buffer
