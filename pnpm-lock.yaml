@@ -1023,7 +1023,7 @@ importers:
         version: 7.2.4
       undici:
         specifier: '>=5.29.0'
-        version: 6.24.0
+        version: 6.25.0
       uuid:
         specifier: ^14.0.0
         version: 14.0.0
@@ -10864,8 +10864,8 @@ packages:
   undici-types@7.10.0:
     resolution: {integrity: sha512-t5Fy/nfn+14LuOc2KNYg75vZqClpAiqscVvMygNnlsHBFpSXdJaYtXMcdNLpl/Qvc3P2cB3s6lOV51nqsFq4ag==}
 
-  undici@6.24.0:
-    resolution: {integrity: sha512-lVLNosgqo5EkGqh5XUDhGfsMSoO8K0BAN0TyJLvwNRSl4xWGZlCVYsAIpa/OpA3TvmnM01GWcoKmc3ZWo5wKKA==}
+  undici@6.25.0:
+    resolution: {integrity: sha512-ZgpWDC5gmNiuY9CnLVXEH8rl50xhRCuLNA97fAUnKi8RRuV4E6KG31pDTsLVUKnohJE0I3XDrTeEydAXRw47xg==}
     engines: {node: '>=18.17'}
 
   unicode-trie@2.0.0:
@@ -13700,7 +13700,7 @@ snapshots:
       '@qdrant/openapi-typescript-fetch': 1.2.6
       '@sevinf/maybe': 0.5.0
       typescript: 5.8.3
-      undici: 6.24.0
+      undici: 6.25.0
 
   '@qdrant/openapi-typescript-fetch@1.2.6': {}
 
@@ -15826,7 +15826,7 @@ snapshots:
       read: 1.0.7
       secretlint: 10.2.2
       semver: 7.8.0
-      tmp: 0.2.4
+      tmp: 0.2.5
       typed-rest-client: 1.8.11
       url-join: 4.0.1
       xml2js: 0.5.0
@@ -16429,7 +16429,7 @@ snapshots:
       parse5: 7.3.0
       parse5-htmlparser2-tree-adapter: 7.1.0
       parse5-parser-stream: 7.1.2
-      undici: 6.24.0
+      undici: 6.25.0
       whatwg-mimetype: 4.0.0
 
   chokidar@3.6.0:
@@ -20365,7 +20365,7 @@ snapshots:
       is-ci: 2.0.0
       leven: 3.1.0
       semver: 7.8.0
-      tmp: 0.2.4
+      tmp: 0.2.5
       yauzl-promise: 4.0.0
     transitivePeerDependencies:
       - bare-buffer
@@ -22517,7 +22517,7 @@ snapshots:
 
   undici-types@7.10.0: {}
 
-  undici@6.24.0: {}
+  undici@6.25.0: {}
 
   unicode-trie@2.0.0:
     dependencies:
