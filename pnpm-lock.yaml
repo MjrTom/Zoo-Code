@@ -978,7 +978,7 @@ importers:
         version: 1.2.2(zod@3.25.76)
       sanitize-filename:
         specifier: ^1.6.3
-        version: 1.6.3
+        version: 1.6.4
       say:
         specifier: ^0.16.0
         version: 0.16.0
@@ -10040,8 +10040,8 @@ packages:
   sambanova-ai-provider@1.2.2:
     resolution: {integrity: sha512-MU/D+9GCg6me0guDRPw/x0N8cnpkOkv03FR7QXdrcinX0hprS7bsZXXTYEz81Svc+oVwXDZwh0v+Sd5pUxV3mg==}
 
-  sanitize-filename@1.6.3:
-    resolution: {integrity: sha512-y/52Mcy7aw3gRm7IrcGDFx/bCk4AhRh2eI9luHOQM86nZsqwiRkkq2GekHXBBD+SmPidc8i2PqtYZl+pWJ8Oeg==}
+  sanitize-filename@1.6.4:
+    resolution: {integrity: sha512-9ZyI08PsvdQl2r/bBIGubpVdR3RR9sY6RDiWFPreA21C/EFlQhmgo20UZlNjZMMZNubusLhAQozkA0Od5J21Eg==}
 
   satori@0.16.0:
     resolution: {integrity: sha512-ZvHN3ygzZ8FuxjSNB+mKBiF/NIoqHzlBGbD0MJiT+MvSsFOvotnWOhdTjxKzhHRT2wPC1QbhLzx2q/Y83VhfYQ==}
@@ -21708,7 +21708,7 @@ snapshots:
     transitivePeerDependencies:
       - zod
 
-  sanitize-filename@1.6.3:
+  sanitize-filename@1.6.4:
     dependencies:
       truncate-utf8-bytes: 1.0.2
 
