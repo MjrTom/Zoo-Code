@@ -96,7 +96,7 @@ importers:
         version: link:../../packages/vscode-shim
       '@trpc/client':
         specifier: ^11.8.1
-        version: 11.8.1(@trpc/server@11.8.1(typescript@5.8.3))(typescript@5.8.3)
+        version: 11.17.0(@trpc/server@11.8.1(typescript@5.8.3))(typescript@5.8.3)
       '@vscode/ripgrep':
         specifier: ^1.15.9
         version: 1.17.0
@@ -4687,10 +4687,11 @@ packages:
   '@tootallnate/quickjs-emscripten@0.23.0':
     resolution: {integrity: sha512-C5Mc6rdnsaJDjO3UpGW/CQTHtCKaYlScZTly4JIu97Jxo/odCiH0ITnDXSJPTOrEKk/ycSZ0AOgTmkDtkOsvIA==}
 
-  '@trpc/client@11.8.1':
-    resolution: {integrity: sha512-L/SJFGanr9xGABmuDoeXR4xAdHJmsXsiF9OuH+apecJ+8sUITzVT1EPeqp0ebqA6lBhEl5pPfg3rngVhi/h60Q==}
+  '@trpc/client@11.17.0':
+    resolution: {integrity: sha512-KpJBFrbKTDeVCFv/3ckL1XBBH5Yssn8hethI/rUy7GIpTj+VzjtPjykDqJpzobuVOz+d26cXCSu1t4I6MYI5Zg==}
+    hasBin: true
     peerDependencies:
-      '@trpc/server': 11.8.1
+      '@trpc/server': 11.17.0
       typescript: '>=5.7.2'
 
   '@trpc/server@11.8.1':
@@ -15326,7 +15327,7 @@ snapshots:
 
   '@tootallnate/quickjs-emscripten@0.23.0': {}
 
-  '@trpc/client@11.8.1(@trpc/server@11.8.1(typescript@5.8.3))(typescript@5.8.3)':
+  '@trpc/client@11.17.0(@trpc/server@11.8.1(typescript@5.8.3))(typescript@5.8.3)':
     dependencies:
       '@trpc/server': 11.8.1(typescript@5.8.3)
       typescript: 5.8.3
