@@ -1267,7 +1267,7 @@ importers:
         version: 25.2.1(typescript@5.8.3)
       i18next-http-backend:
         specifier: ^3.0.5
-        version: 3.0.5
+        version: 3.0.6
       katex:
         specifier: ^0.16.11
         version: 0.16.22
@@ -7600,8 +7600,8 @@ packages:
   hyphenate-style-name@1.1.0:
     resolution: {integrity: sha512-WDC/ui2VVRrz3jOVi+XtjqkDjiVjTtFaAGiW37k6b+ohyQ5wYDOGkvCZa8+H0nx3gyvv0+BST9xuOgIyGQ00gw==}
 
-  i18next-http-backend@3.0.5:
-    resolution: {integrity: sha512-QaWHnsxieEDcqKe+vo/RFqpiIFRi/KBqlOSPcUlvinBaISCeiTRCbtrazHAjtHtsLC66oDsROAH8frWkQzfMMQ==}
+  i18next-http-backend@3.0.6:
+    resolution: {integrity: sha512-mBOqy8993jtqAoj6XaI1XeC/8/9v6EPS+681ziegrPvTB0DoaCY7PpTS0SpY56qLMoS4OI1TZEM2Zf59zNh05w==}
 
   i18next@25.2.1:
     resolution: {integrity: sha512-+UoXK5wh+VlE1Zy5p6MjcvctHXAhRwQKCxiJD8noKZzIXmnAX8gdHX5fLPA3MEVxEN4vbZkQFy8N0LyD9tUqPw==}
@@ -18571,7 +18571,7 @@ snapshots:
 
   hyphenate-style-name@1.1.0: {}
 
-  i18next-http-backend@3.0.5:
+  i18next-http-backend@3.0.6:
     dependencies:
       cross-fetch: 4.1.0
     transitivePeerDependencies:
