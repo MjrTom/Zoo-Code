@@ -918,7 +918,7 @@ importers:
         version: 4.0.8
       mammoth:
         specifier: ^1.9.1
-        version: 1.11.0
+        version: 1.12.0
       monaco-vscode-textmate-theme-converter:
         specifier: ^0.1.7
         version: 0.1.7(tslib@2.8.1)
@@ -8444,8 +8444,8 @@ packages:
     resolution: {integrity: sha512-hXdUTZYIVOt1Ex//jAQi+wTZZpUpwBj/0QsOzqegb3rGMMeJiSEu5xLHnYfBrRV4RH2+OCSOO95Is/7x1WJ4bw==}
     engines: {node: '>=10'}
 
-  mammoth@1.11.0:
-    resolution: {integrity: sha512-BcEqqY/BOwIcI1iR5tqyVlqc3KIaMRa4egSoK83YAVrBf6+yqdAAbtUcFDCWX8Zef8/fgNZ6rl4VUv+vVX8ddQ==}
+  mammoth@1.12.0:
+    resolution: {integrity: sha512-cwnK1RIcRdDMi2HRx2EXGYlxqIEh0Oo3bLhorgnsVJi2UkbX1+jKxuBNR9PC5+JaX7EkmJxFPmo6mjLpqShI2w==}
     engines: {node: '>=12.0.0'}
     hasBin: true
 
@@ -15826,7 +15826,7 @@ snapshots:
       read: 1.0.7
       secretlint: 10.2.2
       semver: 7.8.0
-      tmp: 0.2.4
+      tmp: 0.2.5
       typed-rest-client: 1.8.11
       url-join: 4.0.1
       xml2js: 0.5.0
@@ -19430,7 +19430,7 @@ snapshots:
     dependencies:
       semver: 7.8.0
 
-  mammoth@1.11.0:
+  mammoth@1.12.0:
     dependencies:
       '@xmldom/xmldom': 0.8.13
       argparse: 1.0.10
@@ -20365,7 +20365,7 @@ snapshots:
       is-ci: 2.0.0
       leven: 3.1.0
       semver: 7.8.0
-      tmp: 0.2.4
+      tmp: 0.2.5
       yauzl-promise: 4.0.0
     transitivePeerDependencies:
       - bare-buffer
