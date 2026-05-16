@@ -524,7 +524,7 @@
 		"uuid": "^14.0.0",
 		"vscode-material-icons": "^0.1.1",
 		"web-tree-sitter": "^0.26.0",
-		"workerpool": "^9.2.0",
+		"workerpool": "^10.0.2",
 		"yaml": "^2.8.3",
 		"zhipu-ai-provider": "^0.3.0",
 		"zod": "4.4.3"
