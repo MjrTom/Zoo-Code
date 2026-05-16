@@ -34,7 +34,7 @@
 		"@roo-code/config-typescript": "workspace:^",
 		"@types/glob": "^9.0.0",
 		"@types/node": "^25.8.0",
-		"@vscode/vsce": "3.3.2",
+		"@vscode/vsce": "3.9.1",
 		"esbuild": "^0.28.0",
 		"eslint": "^10.4.0",
 		"glob": "^13.0.6",
