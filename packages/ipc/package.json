@@ -18,6 +18,6 @@
 		"@roo-code/config-typescript": "workspace:^",
 		"@types/node": "25.x",
 		"@types/node-ipc": "^9.2.3",
-		"vitest": "^4.1.6"
+		"vitest": "^4.1.8"
 	}
 }
