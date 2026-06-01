@@ -13,7 +13,7 @@
 	},
 	"dependencies": {
 		"@roo-code/types": "workspace:^",
-		"posthog-node": "^5.0.0",
+		"posthog-node": "^5.35.9",
 		"zod": "^4.4.3"
 	},
 	"devDependencies": {
