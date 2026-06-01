@@ -509,7 +509,7 @@
 		"say": "^0.16.0",
 		"semver-compare": "^1.0.0",
 		"serialize-error": "^13.0.1",
-		"shell-quote": "^1.8.2",
+		"shell-quote": "^1.8.4",
 		"simple-git": "^3.36.0",
 		"sound-play": "^1.1.0",
 		"stream-json": "^2.1.0",
